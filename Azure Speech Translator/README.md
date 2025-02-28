@@ -49,13 +49,13 @@ SPEECH_REGION=your_speech_region
 ```bash
 python main.py
 ```
-2. **Choose a target language from the available options:
+2. Choose a target language from the available options:
 
-- fr for French
+   - fr for French
 
-- es for Spanish
+   - es for Spanish
 
-- hi for Hindi
+   - hi for Hindi
 
 3. Speak into your microphone when prompted.
 
