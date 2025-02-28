@@ -6,49 +6,49 @@ Azure Speech Translator is a Python-based application that uses Microsoft Azure'
 
 ## Features
 
-Speech-to-text translation from English to multiple languages
+- Speech-to-text translation from English to multiple languages
 
-Supports French, Spanish, and Hindi translations
+- Supports French, Spanish, and Hindi translations
 
-Real-time speech synthesis in the translated language
+- Real-time speech synthesis in the translated language
 
-Uses Azure Cognitive Services for speech recognition and translation
+- Uses Azure Cognitive Services for speech recognition and translation
 
 ## Prerequisites
 
 To run this project, ensure you have the following:
 
-Python 3.x installed
+- Python 3.x installed
 
-An Azure Speech Services account
+- An Azure Speech Services account
 
-Azure Speech key and region
+- Azure Speech key and region
 
-Required dependencies installed
+- Required dependencies installed
 
 ## Installation
 
-1. **Clone the repository:
-
+1. **Clone the repository**:
+```bash
 git clone https://github.com/your-username/AzureSpeechTranslator.git
 cd AzureSpeechTranslator
-
-2. **Install dependencies:
-
+```
+2. **Install dependencies**:
+```bash
 pip install -r requirements.txt
-
-3. **Set up environment variables:
+```
+3. **Set up environment variables**:
 Create a .env file in the root directory and add your Azure Speech credentials:
-
+```bash
 SPEECH_KEY=your_speech_key
 SPEECH_REGION=your_speech_region
-
+```
 ## Usage
 
-1. **Run the script:
-
+1. Run the script:
+```bash
 python main.py
-
+```
 2. **Choose a target language from the available options:
 
 - fr for French
@@ -57,22 +57,22 @@ python main.py
 
 - hi for Hindi
 
-Speak into your microphone when prompted.
+3. Speak into your microphone when prompted.
 
-The application will recognize your speech, translate it, and synthesize the translated text back in the chosen language.
+4. The application will recognize your speech, translate it, and synthesize the translated text back in the chosen language.
 
-Dependencies
+## Dependencies
 
-python-dotenv
+- python-dotenv
 
-azure-cognitiveservices-speech
+- azure-cognitiveservices-speech
 
-Install dependencies manually if needed:
-
+- Install dependencies manually if needed:
+```bash
 pip install azure-cognitiveservices-speech==1.30.0 python-dotenv
+```
 
-
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to submit issues and pull requests.
 
