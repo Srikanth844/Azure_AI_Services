@@ -1,8 +1,4 @@
-### **Title:** *Azure AI Text Classification using Custom Document Classification*  
-
-
-```markdown
-# Azure AI Text Classification using Custom Document Classification
+# Azure AI Text Classification using Custom Document Classification 
 
 ## Overview
 
